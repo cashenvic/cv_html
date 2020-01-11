@@ -1,0 +1,13 @@
+.left-side {
+    border: 1px solid green;
+    width: 20em;
+    display: block;
+    float: left;
+}
+
+.right-side {
+    border: 1px solid red;
+    width: 20em;
+    display: block;
+    float: right;
+}

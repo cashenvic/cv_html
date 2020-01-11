@@ -9,7 +9,7 @@
 
 body {
     font-family: Saros;
-    font-size: 1.1em;
+    font-size: 0.8em;
     /*background: #f9f9f9;*/
     margin: 0px;
 }
@@ -21,6 +21,14 @@ a {
 
 ul {
     padding-inline-start: 20px;
+}
+
+label {
+	margin-bottom: 0;
+}
+
+table td {
+	padding: 0.3em !important;
 }
 
 #main_wrapper {
@@ -43,14 +51,23 @@ ul {
 	margin-left: -16px;
 	height: 100px;
 	width: 110%;
-	background: linear-gradient(161deg, #8ab4f8, #fff);
+	background: url('../wave.svg');
+	position: relative;
+	top: 0px;
+	transform: rotate(180deg);
+	z-index: -10;
+	/* background: linear-gradient(161deg, #8ab4f8, #fff); */
 }
 
 #bas_page{
 	margin: -66px;
 	height: 158px;
 	width: 110%;
-	background: linear-gradient(347deg, #8ab4f8, #fff);
+	background: url('../wave.svg');
+	position: relative;
+	bottom: 64px;
+	z-index: -10;
+	/* background: linear-gradient(347deg, #8ab4f8, #fff); */
 }
 
 .copy {
@@ -105,8 +122,14 @@ ul {
 	
 }
 
-#competences table{
+#competences .item {
+	margin: 3px;
+	padding: 3px;
+}
 
+#competences .item img {
+	display: inline-flex;
+	width: 50px;
 }
 
 #competences table tr td {
@@ -116,7 +139,6 @@ ul {
 
 #hobbies {
 	position: relative;
-	z-index: 100;
 }
 
 #hobbies table tr td {
@@ -174,8 +196,17 @@ ul {
 	/*margin-top: 0.6em;*/
 	padding: 0.5em;
 	min-height: 5em;
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.85);
 	box-shadow: gray 0px 2px 7px;
+	border-radius: 30px;
+}
+
+.row .left-side {
+	margin-right: 0.3em;
+}
+
+.row .right-side {
+	margin-left: 0.3em;
 }
 
 .bloc_bleu {
@@ -196,7 +227,7 @@ ul {
 
 .parcours li, .parcours label{
 	color: black;
-	font-size: 1.20em;
+	/* font-size: 1.20em; */
 	font-style: bold;
 }
 
@@ -258,7 +289,7 @@ ul {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(./coding-icon.png);
+    background-image: url('../coding-icon.png');
     background-position: center;
     width: 100%;
     height: 100%;
