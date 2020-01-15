@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Saros;
+    /* font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-size: 0.8em;
     /*background: #f9f9f9;*/
     margin: 0px;
@@ -71,14 +71,14 @@ table td {
 }
 
 .copy {
-	color: white;
+	color: 	white;
 	position: relative;
-	top: 6em;
-	left: 71em;
+	top: 15em;
+	left: 80em;
 	margin-top: 100px;
 	text-align: right;
-	text-shadow: gray 0px -4px 7px;
-	font-size: 0.6em; 
+	text-shadow:gray 0px -4px 7px;
+	font-size: 0.7em;
 }
 
 #identité{
@@ -129,7 +129,7 @@ table td {
 
 #competences .item img {
 	display: inline-flex;
-	width: 50px;
+	width: 60px;
 }
 
 #competences table tr td {
@@ -149,12 +149,31 @@ table td {
 	text-align: center;
 }
 
+#hobbies img {
+	width: 60px;
+}
+
 #hobbies i.fa{
 
 }
 
 #projets {
 	font-size: 1.20em;
+}
+
+
+#projets img {
+	width: 20px;
+}
+
+#projets table td:first-child {
+	width: 75px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#projets table td:last-child {
+	/* text-align: justify; */
 }
 
 #projets:after {
@@ -180,6 +199,7 @@ table td {
 	border: 1px #dbdbdb solid;
 	padding-left: 1em;
 	padding-right: 1em;
+	border-radius: 10px;
 }
 
 .mention {
@@ -202,10 +222,12 @@ table td {
 }
 
 .row .left-side {
+	min-width: 40%;
 	margin-right: 0.3em;
 }
 
 .row .right-side {
+	min-width: 40%;
 	margin-left: 0.3em;
 }
 
@@ -220,15 +242,16 @@ table td {
 }
 
 .parcours {
-	padding-top: 0.7em;
+	/* padding-top: 0.7em; */
 	padding-left: 1em;
 }
 
 
 .parcours li, .parcours label{
 	color: black;
-	/* font-size: 1.20em; */
+	font-size: 1.20em;
 	font-style: bold;
+	padding-left: 1em;
 }
 
 .parcours label{

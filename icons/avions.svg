@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 60 60">
+  <g fill="none" fill-rule="evenodd" stroke-linejoin="round" stroke-width="2" transform="translate(2 2)">
+    <g stroke-linecap="round" transform="translate(17)">
+      <polygon fill="#D793FD" stroke="#D793FD" points="0 9 9 6 9 10 0 12"/>
+      <polygon fill="#D793FD" stroke="#D793FD" points="13 9 22 6 22 10 13 12" transform="matrix(-1 0 0 1 35 0)"/>
+      <path fill="#FF8AAC" stroke="#FF8AAC" d="M9,17 L7,18 L7,21 L11,19 L15,21 L15,18 L13,17 L13,2.00010618 C13,0.890058413 12.1045695,0 11,0 C9.88772964,0 9,0.895478039 9,2.00010618 L9,17 Z"/>
+    </g>
+    <g stroke-linecap="round" transform="rotate(90 19.5 37.5)">
+      <polygon fill="#FD5A5A" stroke="#FD5A5A" points=".001 9 9.001 6 9.001 10 .001 12"/>
+      <polygon fill="#FD5A5A" stroke="#FD5A5A" points="13.001 9 22.001 6 22.001 10 13.001 12" transform="matrix(-1 0 0 1 35.002 0)"/>
+      <path fill="#F8A131" stroke="#F8A131" d="M9.00108639,17 L7.00108639,18 L7.00108639,21 L11.0010864,19 L15.0010864,21 L15.0010864,18 L13.0010864,17 L13.0010864,2.00010618 C13.0010864,0.890058413 12.1056559,0 11.0010864,0 C9.88881603,0 9.00108639,0.895478039 9.00108639,2.00010618 L9.00108639,17 Z"/>
+    </g>
+    <g stroke-linecap="round" transform="matrix(0 1 1 0 0 31)">
+      <polygon fill="#746DE0" stroke="#746DE0" points=".001 9 9.001 6 9.001 10 .001 12"/>
+      <polygon fill="#746DE0" stroke="#746DE0" points="13.001 9 22.001 6 22.001 10 13.001 12" transform="matrix(-1 0 0 1 35.002 0)"/>
+      <path fill="#4A8F9E" stroke="#4A8F9E" d="M9.00108639,17 L7.00108639,18 L7.00108639,21 L11.0010864,19 L15.0010864,21 L15.0010864,18 L13.0010864,17 L13.0010864,2.00010618 C13.0010864,0.890058413 12.1056559,0 11.0010864,0 C9.88881603,0 9.00108639,0.895478039 9.00108639,2.00010618 L9.00108639,17 Z"/>
+    </g>
+    <path stroke="#49A25A" stroke-dasharray="34 4" stroke-linecap="square" d="M28,24 L28,53.0172363"/>
+    <polyline stroke="#A48659" stroke-dasharray="34 4" stroke-linecap="square" points="31 53 31 29 34.087 29"/>
+    <polyline stroke="#BDB9FF" stroke-dasharray="34 4" stroke-linecap="square" points="25 53 25 42 22.671 42"/>
+  </g>
+</svg>
